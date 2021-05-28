@@ -1,4 +1,4 @@
-package Backend.service;
+package service;
 
 import com.google.auth.oauth2.GoogleCredentials;
 import com.google.firebase.FirebaseApp;
@@ -16,7 +16,7 @@ public class Connexion {
     public void connexion() {
         try {
             FileInputStream serviceAccount =
-                    new FileInputStream("Backend/serviceAccount.json");
+                    new FileInputStream("./serviceAccount.json");
 
 
             FirebaseOptions builder = FirebaseOptions.builder()
