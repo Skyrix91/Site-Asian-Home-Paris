@@ -15,7 +15,7 @@ import objects.Client;
 import service.UserService;
 
 @RestController
-public class RestDemoController {
+public class ClientController {
 
     @Autowired
     UserService userService;
