@@ -1526,6 +1526,40 @@ Contacts
     font-weight: 700;
 }
 
+#contacts .contact-footer.right-text-content {
+    text-align: left;
+    margin-top: 10px;
+}
+
+#contacts .contact-footer.right-text-content ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+#contacts .contact-footer.right-text-content ul li:first-child {
+    margin-left: 0px;
+}
+
+#contacts .contact-footer .right-text-content ul li a {
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+    text-align: center;
+    line-height: 44px;
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #fb5849;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+#contacts .contact-footer .right-text-content ul li a:hover {
+    color: #2a2a2a;
+}
+
 
 /*
 ---------------------------------------------
@@ -1758,7 +1792,7 @@ responsive
     #chefs .chef-item {
         margin-bottom: 30px;
     }
-    #reservation .phone {
+    #contacts .phone {
         margin-bottom: 60px;
     }
     #contact {
