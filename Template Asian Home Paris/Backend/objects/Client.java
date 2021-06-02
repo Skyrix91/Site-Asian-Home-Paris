@@ -4,25 +4,25 @@ import java.util.Objects;
 
 public class Client {
     
-    private String name;
+    private String nom;
     private String mail;
-    private String phoneNumber;
+    private String tel;
 
     public Client() {
         super();
     }
 
     public Client (String name, String mail, String phoneNumber) {
-        this.name = name;
+        this.nom = name;
         this.mail = mail;
-        this.phoneNumber = phoneNumber;
+        this.tel = phoneNumber;
     }
     public void setName(String name) {
-        this.name = name;
+        this.tel = name;
     }
 
     public String getName() {
-        return name;
+        return nom;
     }
 
     public void setMail(String mail) {
@@ -33,12 +33,12 @@ public class Client {
         return mail;
     }
 
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
+    public void setPhoneNumber(String tel) {
+        this.tel = tel;
     }
 
     public String getPhoneNumber() {
-        return phoneNumber;
+        return tel;
     }
 
     @Override
@@ -49,12 +49,12 @@ public class Client {
         if (o == null || getClass() != o.getClass()) return false;
         //Maintenant, on compare les attributs de nos objets
         Client client = (Client) o;
-
-        return Objects.equals(name, client.name) && Objects.equals(mail, client.mail) && Objects.equals(phoneNumber, client.phoneNumber);
+        //
+        return Objects.equals(nom, client.nom) && Objects.equals(mail, client.mail) && Objects.equals(tel, client.tel);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(name, mail, phoneNumber);
+        return Objects.hash(nom, mail, tel);
     }
 }

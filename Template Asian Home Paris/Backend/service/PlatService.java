@@ -13,20 +13,13 @@ import java.util.concurrent.ExecutionException;
 
 @Service
 public class PlatService {
-
-    public String getPlat(Client client) throws InterruptedException, ExecutionException {
-
-        Firestore dbFirestore = FirestoreClient.getFirestore();
-
-        ApiFuture<WriteResult>  collectionsApiFuture = dbFirestore.collection("client").document(client.getName()).set(client);
-        return collectionsApiFuture.get().getUpdateTime().toString();
-    }
-
-    public Client getClient (String name) throws InterruptedException, ExecutionException {
+    
+    
+    public List <Plat> getPlat () throws InterruptedException, ExecutionException {
         Firestore dbFirestore = FirestoreClient.getFirestore();
 
         Firestore db = null;
-        DocumentReference docRef = db.collection("users").document("name");
+        DocumentReference docRef = db.collection("plat").document("name");
 // asynchronously retrieve the document
         ApiFuture<DocumentSnapshot> future = docRef.get();
 
@@ -35,8 +28,8 @@ public class PlatService {
 // future.get() blocks on response
         DocumentSnapshot document = future.get();
         if (document.exists()) {
-            client = document.toObject(Client.class);
-            return client;
+            plat = document.toObject(plat.class);
+            return List <Plat>;
         } else {
             System.out.println("No such document!");
         }

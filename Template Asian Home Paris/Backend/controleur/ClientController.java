@@ -12,13 +12,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.concurrent.ExecutionException;
 import objects.Client;
-import service.UserService;
+import service.ClientService;
 
 @RestController
 public class ClientController {
 
     @Autowired
-    UserService userService;
+    ClientService clientService;
 
     @GetMapping("/getUserDetails")
     public Client getExample(@RequestHeader() String name) {
@@ -27,7 +27,8 @@ public class ClientController {
 
     @PostMapping ("/createUser")
     public String saveUser(@RequestBody Client client) throws ExecutionException, InterruptedException {
-        return userService.saveUser(client);
+
+        return clientService.saveClient(client);
     }
 
     @PutMapping("/updateUser")
