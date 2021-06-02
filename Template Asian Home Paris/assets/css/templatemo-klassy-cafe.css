@@ -113,6 +113,14 @@ figcaption {
     display: inline-block;
 }
 
+.ctr {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: space-evenly;
+}
+
 html[xmlns] .clearfix {
     display: block;
 }

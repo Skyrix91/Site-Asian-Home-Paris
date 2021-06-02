@@ -1,19 +1,17 @@
 package objects;
 
 public class Plat {
-    private String id;
+    private String cat;
     private String nom;
-    private int prix;
+    private int    prix;
     private String ing;
-    private String catégorie;
     private String img;
 
-    public Plat(String nom, String catégorie, String img, String ing, int prix, String id) {
+    public Plat (String nom, String cat, String img, String ing, int prix) {
         this.nom = nom;
-        this.catégorie = catégorie;
+        this.cat = cat;
         this.img = img;
         this.ing = ing;
-        this.prix = prix;
-        this.id = id;
+        this.prix= prix;
     }
 }
