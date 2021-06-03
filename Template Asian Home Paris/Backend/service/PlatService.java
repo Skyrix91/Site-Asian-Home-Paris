@@ -7,6 +7,12 @@ import objects.Client;
 import objects.Plat;
 import org.springframework.stereotype.Service;
 
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
+
 import java.util.List;
 import java.util.concurrent.ExecutionException;
 
@@ -39,4 +45,19 @@ public class PlatService {
             FirebaseFirestore.getInstance().collection("users").whereGreaterThanOrEqualTo("username", "Sushi")
             return null;
         }
+
+    public String getPlatNom(){
+        return db.collection("plat").document("name");
+    }
+    public int getPlatPrix(){
+        return db.collection("plat").document("name").document("prix");
+    }
+
+    public String getPlatIng(){
+        return db.collection("plat").document("name").document("Ingredients");
+    }
+
+    public String getPlatImg(){
+        return 
+    }
 }
