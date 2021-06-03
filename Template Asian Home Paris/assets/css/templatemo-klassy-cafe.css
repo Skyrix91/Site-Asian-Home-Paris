@@ -344,7 +344,7 @@ header
 }
 
 .background-header .main-nav .logo {
-    line-height: 300px;
+    line-height: 50px;
 }
 
 .background-header .nav {
@@ -1843,14 +1843,14 @@ responsive
 
 #preloader {
     overflow: hidden;
-    background-color: #fb5849;
+    background-color: black;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
     position: fixed;
     z-index: 99999;
-    color: #fff;
+    color: #FFDE59;
 }
 
 #preloader .jumper {
@@ -1866,7 +1866,7 @@ responsive
 }
 
 #preloader .jumper>div {
-    background-color: #fff;
+    background-color: #FFDE59;
     width: 10px;
     height: 10px;
     border-radius: 100%;
