@@ -344,7 +344,7 @@ header
 }
 
 .background-header .main-nav .logo {
-    line-height: 50px;
+    line-height: 75px;
 }
 
 .background-header .nav {
@@ -1195,7 +1195,7 @@ menu
 #menu .owl-nav .owl-prev:before {
     display: inline-block;
     font-family: 'FontAwesome';
-    color: #fb5849;
+    color: #FFDE59;
     font-size: 25px;
     font-weight: 700;
     content: '\f104';
@@ -1227,7 +1227,7 @@ menu
 #menu .owl-nav .owl-next:before {
     display: inline-block;
     font-family: 'FontAwesome';
-    color: #fb5849;
+    color: #FFDE59;
     font-size: 25px;
     font-weight: 700;
     content: '\f105';
@@ -1259,17 +1259,8 @@ chefs
 #chefs .chef-item {
     text-align: center;
     border: 1px solid #afafaf;
-    padding: 5px;
     transition: all .5s;
     border-radius: 3px;
-}
-
-#chefs .chef-item:hover {
-    border-color: #fb5849;
-}
-
-#chefs .chef-item:hover .down-content h4 {
-    color: #fb5849;
 }
 
 #chefs .chef-item .thumb {
@@ -1282,62 +1273,6 @@ chefs
     position: relative;
 }
 
-#chefs .chef-item .thumb .overlay {
-    position: absolute;
-    background-color: #2a2a2a;
-    border-radius: 3px;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
-    opacity: 0;
-    visibility: hidden;
-    transition: all .3s;
-}
-
-#chefs .chef-item .thumb ul.social-icons {
-    position: absolute;
-    z-index: 11;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    transition: all .5s;
-    opacity: 0;
-    visibility: hidden;
-}
-
-#chefs .chef-item .thumb ul.social-icons li {
-    display: inline-block;
-    margin: 0px 5px;
-}
-
-#chefs .chef-item .thumb ul.social-icons li a {
-    width: 40px;
-    height: 40px;
-    background-color: #fff;
-    color: #2a2a2a;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 40px;
-    display: inline-block;
-    transition: all .5s;
-}
-
-#chefs .chef-item .thumb ul.social-icons li a:hover {
-    background-color: #fb5849;
-}
-
-#chefs .chef-item:hover .overlay {
-    opacity: .9;
-    visibility: visible;
-}
-
-#chefs .chef-item:hover ul.social-icons {
-    opacity: 1;
-    visibility: visible;
-}
 
 #chefs .chef-item .down-content {
     padding: 20px 0px;
