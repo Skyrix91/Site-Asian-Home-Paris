@@ -182,7 +182,7 @@ ul {
 p {
     font-size: 14px;
     line-height: 25px;
-    color: #2a2a2a;
+    color: white;
 }
 
 
@@ -194,7 +194,7 @@ global styles
 
 html,
 body {
-    background: #fff;
+    background: black;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -204,8 +204,8 @@ body {
 }
 
 ::-moz-selection {
-    background: #fb5849;
-    color: #fff;
+    background: #FFDE59;
+    color: black;
 }
 
 @media (max-width: 991px) {
@@ -268,7 +268,7 @@ body {
     position: absolute;
     left: 0;
     top: 8px;
-    background-color: #fb5849;
+    background-color: #FFDE59;
 }
 
 .section-heading h2 {
@@ -277,7 +277,7 @@ body {
     margin-bottom: 25px;
     font-size: 30px;
     font-weight: 900;
-    color: #2a2a2a;
+    color: #FFDE59;
 }
 
 
@@ -288,7 +288,7 @@ header
 */
 
 .background-header {
-    background-color: #fff;
+    background-color: balck;
     height: 80px!important;
     position: fixed!important;
     top: 0px;
@@ -299,19 +299,19 @@ header
 
 .background-header .logo,
 .background-header .main-nav .nav li a {
-    color: #1e1e1e!important;
+    color: black;
 }
 
 .background-header .main-nav .nav li:hover a {
-    color: #fb5849!important;
+    color: black;
 }
 
 .background-header .nav li a.active {
-    color: #fb5849!important;
+    color: black;
 }
 
 .header-area {
-    background-color: #fff;
+    background-color: black;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -331,7 +331,7 @@ header
 
 .header-area .main-nav .logo {
     line-height: 100px;
-    color: #fff;
+    color: black;
     font-size: 28px;
     font-weight: 700;
     text-transform: uppercase;
@@ -344,7 +344,7 @@ header
 }
 
 .background-header .main-nav .logo {
-    line-height: 75px;
+    line-height: 300px;
 }
 
 .background-header .nav {
@@ -390,17 +390,17 @@ header
 }
 
 .header-area .main-nav .nav li a {
-    color: #2a2a2a;
+    color: white;
 }
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-    color: #fb5849!important;
+    color: #FFDE59;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-    color: #fb5849!important;
+    color: #FFDE59;
     opacity: 1;
 }
 
@@ -738,7 +738,7 @@ banner
 }
 
 #top .left-content {
-    background-image: url(../images/top-left-bg.jpg);
+    background-image: url(../images/top-left-bg.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -756,7 +756,7 @@ banner
 
 #top .left-content h4 {
     font-family: 'Dancing Script', cursive;
-    color: #fff;
+    color: black;
     font-size: 54px;
     font-weight: 700;
 }
@@ -765,7 +765,7 @@ banner
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 600;
-    color: #fff;
+    color: black;
     letter-spacing: 3px;
     margin-top: 5px;
 }
@@ -1347,12 +1347,12 @@ chefs
     transition: all .3s;
     font-size: 20px;
     font-weight: 700;
-    color: #2a2a2a;
+    color: white;
 }
 
 #chefs .chef-item .down-content span {
     font-size: 14px;
-    color: #2a2a2a;
+    color: white;
 }
 
 
@@ -1377,7 +1377,7 @@ reservation
 #reservation {
     margin-top: 120px;
     padding: 120px 0px;
-    background-image: url(../images/reservation-bg.jpg);
+    background-image: url(../images/reservation-bg.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1394,7 +1394,7 @@ reservation
     text-align: center;
     font-weight: 700;
     font-size: 30px;
-    color: #2a2a2a;
+    color: white;
     margin-bottom: 30px;
 }
 
@@ -1426,14 +1426,14 @@ reservation
 .contact-form input:focus,
 .contact-form textarea:focus,
 .contact-form select:focus {
-    border-color: #fb5849;
+    border-color: #FFDE59;
 }
 
 .contact-form button {
     margin-top: -10px;
     font-size: 13px;
-    color: #fff;
-    background-color: #fb5849;
+    color: black;
+    background-color: #FFDE75;
     padding: 12px 25px;
     width: 100%;
     box-shadow: none;
@@ -1573,9 +1573,9 @@ Contacts
     text-align: center;
     line-height: 44px;
     font-size: 20px;
-    background-color: #fff;
+    background-color: #FFDE59;
     border-radius: 50%;
-    color: #fb5849;
+    color: black;
     -webkit-transition: all 0.5s ease 0s;
     -moz-transition: all 0.5s ease 0s;
     -o-transition: all 0.5s ease 0s;
@@ -1583,7 +1583,7 @@ Contacts
 }
 
 #contacts .contact-footer .right-text-content ul li a:hover {
-    color: #2a2a2a;
+    color: #fb5849;
 }
 
 
@@ -1639,7 +1639,7 @@ offers
     width: 100%;
     display: inline-block;
     font-size: 15px;
-    color: #2a2a2a;
+    color: #FFDE80;
     font-weight: 600;
     transition: all 0.3s;
     text-align: center;
@@ -1656,7 +1656,7 @@ offers
 }
 
 #offers #tabs ul .ui-tabs-active span {
-    color: #1e1e1e;
+    color: #FFDE59;
 }
 
 #offers .tabs-content {
@@ -1683,7 +1683,7 @@ offers
     padding-top: 10px;
     font-size: 20px;
     font-weight: 700;
-    color: #2a2a2a;
+    color: white;
     margin-bottom: 10px;
     margin-right: 100px;
 }
@@ -1706,7 +1706,7 @@ offers
     right: 0;
     width: 70px;
     height: 70px;
-    background-color: #fb5849;
+    background-color: #FFDE59;
     display: inline-block;
     text-align: center;
     line-height: 70px;
@@ -1768,9 +1768,9 @@ footer .right-text-content ul li a {
     text-align: center;
     line-height: 44px;
     font-size: 20px;
-    background-color: #fff;
+    background-color: #FFDE59;
     border-radius: 50%;
-    color: #fb5849;
+    color: black;
     -webkit-transition: all 0.5s ease 0s;
     -moz-transition: all 0.5s ease 0s;
     -o-transition: all 0.5s ease 0s;
@@ -1778,7 +1778,7 @@ footer .right-text-content ul li a {
 }
 
 footer .right-text-content ul li a:hover {
-    color: #2a2a2a;
+    color: #fb5849;
 }
 
 
