@@ -193,8 +193,8 @@ global styles
 */
 /* image du logo en tete de page */
 #imgtete{
-    position: absolute;
-    width: 20%;
+    height: auto;
+    max-width: calc(100%/2);
 
 }
 html,
