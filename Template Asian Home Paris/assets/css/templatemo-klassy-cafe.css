@@ -191,93 +191,98 @@ p {
 global styles
 --------------------------------------------- 
 */
+/* image du logo en tete de page */
+#imgtete{
+    position: absolute;
+    width: 20%;
 
+}
 html,
 body {
-    background: black;
-    font-family: 'Poppins', sans-serif;
+background: black;
+font-family: 'Poppins', sans-serif;
 }
 
 ::selection {
-    background: #fb5849;
-    color: #fff;
+background: #fb5849;
+color: #fff;
 }
 
 ::-moz-selection {
-    background: #FFDE59;
-    color: black;
+background: #FFDE59;
+color: black;
 }
 
 @media (max-width: 991px) {
-    html,
-    body {
-        overflow-x: hidden;
-    }
-    .mobile-top-fix {
-        margin-top: 30px;
-        margin-bottom: 0px;
-    }
-    .mobile-bottom-fix {
-        margin-bottom: 30px;
-    }
-    .mobile-bottom-fix-big {
-        margin-bottom: 60px;
-    }
+html,
+body {
+    overflow-x: hidden;
+}
+.mobile-top-fix {
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.mobile-bottom-fix {
+    margin-bottom: 30px;
+}
+.mobile-bottom-fix-big {
+    margin-bottom: 60px;
+}
 }
 
 .main-white-button a {
-    font-size: 13px;
-    color: #fb5849;
-    background-color: #fff;
-    padding: 12px 25px;
-    display: inline-block;
-    border-radius: 3px;
-    font-weight: 600;
-    transition: all .3s;
+font-size: 13px;
+color: #fb5849;
+background-color: #fff;
+padding: 12px 25px;
+display: inline-block;
+border-radius: 3px;
+font-weight: 600;
+transition: all .3s;
 }
 
 .main-white-button a:hover {
-    opacity: 0.9;
+opacity: 0.9;
 }
 
 .main-text-button a {
-    font-size: 13px;
-    color: #fff;
-    font-weight: 600;
-    transition: all .3s;
+font-size: 13px;
+color: #fff;
+font-weight: 600;
+transition: all .3s;
 }
 
 .main-text-button a:hover {
-    opacity: 0.9;
+opacity: 0.9;
 }
 
 .section-heading h6 {
-    position: relative;
-    font-size: 15px;
-    color: #fb5849;
-    font-weight: 500;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    padding-left: 40px;
+position: relative;
+font-size: 15px;
+color: #fb5849;
+font-weight: 500;
+letter-spacing: 2px;
+text-transform: uppercase;
+padding-left: 40px;
 }
 
 .section-heading h6:before {
-    width: 30px;
-    height: 1px;
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 8px;
-    background-color: #FFDE59;
+width: 30px;
+height: 1px;
+content: '';
+position: absolute;
+left: 0;
+top: 8px;
+background-color: #FFDE59;
 }
 
 .section-heading h2 {
-    line-height: 40px;
-    margin-top: 20px;
-    margin-bottom: 25px;
-    font-size: 30px;
-    font-weight: 900;
-    color: #FFDE59;
+line-height: 40px;
+margin-top: 20px;
+margin-bottom: 25px;
+font-size: 30px;
+font-weight: 900;
+color: #FFDE59;
 }
 
 
