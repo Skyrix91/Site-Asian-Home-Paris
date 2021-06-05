@@ -29,6 +29,7 @@ font & reset css
 */
 
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
 
 /* 
 ---------------------------------------------
@@ -99,6 +100,17 @@ figcaption {
     border: 0;
     outline: 0;
 }
+
+#glow{
+    color : red;
+    position: relative;
+    font-size: 15px;
+
+    text-shadow: 0 0 20px red;
+}
+#glow.after{
+
+      }
 
 .clearfix:after {
     content: ".";
@@ -200,12 +212,12 @@ global styles
 html,
 body {
 background: black;
-font-family: 'Poppins', sans-serif;
+font-family: 'Odibee Sans', cursive;
 }
 
 ::selection {
-background: #fb5849;
-color: #fff;
+background: #FFDE59;
+color: black;
 }
 
 ::-moz-selection {
@@ -232,8 +244,8 @@ body {
 
 .main-white-button a {
 font-size: 13px;
-color: #fb5849;
-background-color: #fff;
+color: #FFDE80;
+background-color: black;
 padding: 12px 25px;
 display: inline-block;
 border-radius: 3px;
@@ -263,17 +275,7 @@ color: #fb5849;
 font-weight: 500;
 letter-spacing: 2px;
 text-transform: uppercase;
-padding-left: 40px;
-}
-
-.section-heading h6:before {
-width: 30px;
-height: 1px;
-content: '';
-position: absolute;
-left: 0;
-top: 8px;
-background-color: #FFDE59;
+text-align: center;
 }
 
 .section-heading h2 {
@@ -283,6 +285,7 @@ margin-bottom: 25px;
 font-size: 30px;
 font-weight: 900;
 color: #FFDE59;
+    text-align: center;
 }
 
 
@@ -293,7 +296,7 @@ header
 */
 
 .background-header {
-    background-color: balck;
+    background-color: black;
     height: 80px!important;
     position: fixed!important;
     top: 0px;
@@ -1019,10 +1022,6 @@ about
     z-index: 9;
 }
 
-#about .section-heading h2 {
-    padding-right: 120px;
-}
-
 #about img {
     width: 100%;
     overflow: hidden;
@@ -1432,7 +1431,7 @@ Contacts
     text-align: center;
     font-weight: 700;
     font-size: 30px;
-    color: #2a2a2a;
+    color: white;
     margin-bottom: 30px;
 }
 
@@ -1464,7 +1463,7 @@ Contacts
 #contacts .phone span a,
 #contacts .message span a {
     font-size: 14px;
-    color: #2a2a2a;
+    color: white;
     transition: all .3s;
 }
 
@@ -1474,21 +1473,21 @@ Contacts
 }
 
 #contacts p {
-    color: #fff;
+    color: black;
     margin-bottom: 65px;
 }
 
 #contacts {
     margin-top: 120px;
     padding: 120px 0px;
-    background-image: url(../images/reservation-bg.jpg);
+    background-image: url(../images/reservation-bg.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #contacts .section-heading h2 {
-    color: #fff;
+    color: white;
     font-weight: 700;
 }
 
@@ -1670,7 +1669,7 @@ footer {
 }
 
 footer .left-text-content p {
-    margin-top: 5px;
+    margin-top: 25px;
     color: #fff;
     font-size: 14px;
     text-align: right;
@@ -1685,7 +1684,7 @@ footer .right-text-content p {
 
 footer .right-text-content {
     text-align: left;
-    margin-top: 10px;
+    margin-top: 38px;
 }
 
 footer .logo {
