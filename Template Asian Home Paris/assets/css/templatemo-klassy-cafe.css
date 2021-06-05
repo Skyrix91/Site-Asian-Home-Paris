@@ -94,24 +94,37 @@ section,
 article,
 aside,
 footer,
+
 figcaption {
     margin: 0;
     padding: 0;
     border: 0;
     outline: 0;
 }
+/* Titre du slide */
+#tslider{
+    margin: auto;
+}
 
+#imgbas{
+    height: auto;
+    max-width: calc(100%/1);
+}
 #glow{
-    color : red;
+    color : yellow;
     position: relative;
     font-size: 15px;
-
-    text-shadow: 0 0 20px red;
+    text-shadow: 0 0 20px yellow;
 }
-#glow.after{
+#glow:before{
+    content :"";
+    height : 100%;
+    background : yellow;
+    z-index : -2;
+    opacity: 5;
+    filter : blur (40px=);
 
-      }
-
+}
 .clearfix:after {
     content: ".";
     display: block;
@@ -192,7 +205,7 @@ ul {
 }
 
 p {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 25px;
     color: white;
 }
@@ -243,7 +256,7 @@ body {
 }
 
 .main-white-button a {
-font-size: 13px;
+font-size: 18px;
 color: #FFDE80;
 background-color: black;
 padding: 12px 25px;
@@ -270,13 +283,15 @@ opacity: 0.9;
 
 .section-heading h6 {
 position: relative;
-font-size: 15px;
+font-size: 30px;
 color: #fb5849;
 font-weight: 500;
 letter-spacing: 2px;
 text-transform: uppercase;
 text-align: center;
 }
+
+
 
 .section-heading h2 {
 line-height: 40px;
@@ -384,7 +399,7 @@ header
 .header-area .main-nav .nav li a {
     display: block;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 20px;
     color: #2a2a2a;
     text-transform: capitalize;
     -webkit-transition: all 0.3s ease 0s;
@@ -611,6 +626,9 @@ header
 
 .header-area.header-sticky .nav li a.active {
     color: #fb5849;
+    position: relative;
+    font-size: 25px;
+    text-shadow: 0 0 20px red;
 }
 
 @media (max-width: 1200px) {
@@ -763,9 +781,9 @@ banner
 }
 
 #top .left-content h4 {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Bungee', cursive;
     color: black;
-    font-size: 54px;
+    font-size: 40px;
     font-weight: 700;
 }
 
@@ -1370,7 +1388,8 @@ reservation
 
 .contact-form button {
     margin-top: -10px;
-    font-size: 13px;
+    font-size: 18px;
+    letter-spacing: 2px;
     color: black;
     background-color: #FFDE75;
     padding: 12px 25px;
@@ -1431,7 +1450,7 @@ Contacts
     text-align: center;
     font-weight: 700;
     font-size: 30px;
-    color: white;
+    color: black;
     margin-bottom: 30px;
 }
 
@@ -1462,8 +1481,8 @@ Contacts
 
 #contacts .phone span a,
 #contacts .message span a {
-    font-size: 14px;
-    color: white;
+    font-size: 18px;
+    color: black;
     transition: all .3s;
 }
 
@@ -1487,7 +1506,7 @@ Contacts
 }
 
 #contacts .section-heading h2 {
-    color: white;
+    color: black;
     font-weight: 700;
 }
 
@@ -1665,18 +1684,20 @@ footer
 footer {
     margin-top: 60px;
     padding: 50px 0px;
-    background-color: #fb5849;
+    background-color: #FFDE59;
 }
 
 footer .left-text-content p {
     margin-top: 25px;
-    color: #fff;
+    color: black;
+    background-color: #FFDE59;
     font-size: 14px;
     text-align: right;
 }
 
 footer .right-text-content p {
-    color: #fff;
+    color: black;
+    background-color: #FFDE59;
     font-size: 14px;
     margin-right: 15px;
     text-transform: uppercase;
@@ -1707,9 +1728,9 @@ footer .right-text-content ul li a {
     text-align: center;
     line-height: 44px;
     font-size: 20px;
-    background-color: #FFDE59;
+    background-color: black;
     border-radius: 50%;
-    color: black;
+    color: #FFDE59;
     -webkit-transition: all 0.5s ease 0s;
     -moz-transition: all 0.5s ease 0s;
     -o-transition: all 0.5s ease 0s;

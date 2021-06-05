@@ -7665,6 +7665,8 @@ button.bg-dark:hover {
 .align-self-center {
     -ms-flex-item-align: center!important;
     align-self: center!important
+    height: auto;
+    margin: auto;
 }
 
 .align-self-baseline {
