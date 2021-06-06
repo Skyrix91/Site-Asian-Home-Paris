@@ -626,14 +626,6 @@ pre code {
     margin-left: -15px
 }
 
-.contacts-row {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: nowrap;
-    margin-right: -15px;
-    margin-left: -15px
-}
-
 .no-gutters {
     margin-right: 0;
     margin-left: 0
@@ -7672,7 +7664,7 @@ button.bg-dark:hover {
 
 .align-self-center {
     -ms-flex-item-align: center!important;
-    align-self: center!important
+    align-self: center!important;
     height: auto;
     margin: auto;
 }
