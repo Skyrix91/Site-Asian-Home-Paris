@@ -1609,6 +1609,7 @@ offers
 #offers #tabs ul li a img {
     display: block;
     margin: 0 auto 15px auto;
+    max-width: calc(300%/3);
 }
 
 #offers #tabs ul .ui-tabs-active a {
