@@ -700,8 +700,8 @@ header
         line-height: 50px !important;
         padding: 0px !important;
         border: none !important;
-        background: #f7f7f7 !important;
-        color: #191a20 !important;
+        background: black !important;
+        color: white !important;
     }
     .header-area .main-nav .nav li a:hover {
         background: #eee !important;
@@ -783,12 +783,12 @@ banner
 #top .left-content h4 {
     font-family: 'Bungee', cursive;
     color: black;
-    font-size: 40px;
+    font-size: min(7vw,50px);
     font-weight: 700;
 }
 
 #top .left-content h6 {
-    font-size: 15px;
+    font-size: min(4vw,30px);
     text-transform: uppercase;
     font-weight: 600;
     color: black;
@@ -1577,6 +1577,9 @@ offers
 
 #offers #tabs ul {
     padding: 0;
+    display: flex;
+    justify-content: center;
+
 }
 
 #offers #tabs ul li {
