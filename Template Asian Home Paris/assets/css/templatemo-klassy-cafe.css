@@ -792,7 +792,7 @@ banner
     text-transform: uppercase;
     font-weight: 600;
     color: black;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     margin-top: 5px;
 }
 
@@ -1609,6 +1609,7 @@ offers
 #offers #tabs ul li a img {
     display: block;
     margin: 0 auto 15px auto;
+    max-width: calc(300%/3);
 }
 
 #offers #tabs ul .ui-tabs-active a {
