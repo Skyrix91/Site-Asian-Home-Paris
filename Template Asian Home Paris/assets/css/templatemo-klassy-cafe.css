@@ -700,8 +700,8 @@ header
         line-height: 50px !important;
         padding: 0px !important;
         border: none !important;
-        background: #f7f7f7 !important;
-        color: #191a20 !important;
+        background: black !important;
+        color: white !important;
     }
     .header-area .main-nav .nav li a:hover {
         background: #eee !important;
@@ -783,12 +783,12 @@ banner
 #top .left-content h4 {
     font-family: 'Bungee', cursive;
     color: black;
-    font-size: 40px;
+    font-size: 5vw;
     font-weight: 700;
 }
 
 #top .left-content h6 {
-    font-size: 15px;
+    font-size: 3vw;
     text-transform: uppercase;
     font-weight: 600;
     color: black;
