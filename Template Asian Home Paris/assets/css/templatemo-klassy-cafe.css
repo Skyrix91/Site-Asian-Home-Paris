@@ -700,8 +700,8 @@ header
         line-height: 50px !important;
         padding: 0px !important;
         border: none !important;
-        background: black !important;
-        color: white !important;
+        background: #f7f7f7 !important;
+        color: #191a20 !important;
     }
     .header-area .main-nav .nav li a:hover {
         background: #eee !important;
@@ -783,16 +783,16 @@ banner
 #top .left-content h4 {
     font-family: 'Bungee', cursive;
     color: black;
-    font-size: min(7vw,50px);
+    font-size: 40px;
     font-weight: 700;
 }
 
 #top .left-content h6 {
-    font-size: min(4vw,30px);
+    font-size: 15px;
     text-transform: uppercase;
     font-weight: 600;
     color: black;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     margin-top: 5px;
 }
 
@@ -1577,9 +1577,6 @@ offers
 
 #offers #tabs ul {
     padding: 0;
-    display: flex;
-    justify-content: center;
-
 }
 
 #offers #tabs ul li {
@@ -1609,7 +1606,6 @@ offers
 #offers #tabs ul li a img {
     display: block;
     margin: 0 auto 15px auto;
-    max-width: calc(300%/3);
 }
 
 #offers #tabs ul .ui-tabs-active a {
@@ -1785,6 +1781,14 @@ responsive
     #contacts .phone {
         margin-bottom: 60px;
     }
+    #contacts .message {
+        margin-bottom: 60px;
+    }
+
+    #contacts .message {
+        margin-bottom: 60px;
+    }
+
     #contact {
         margin-left: 0px;
         margin-top: 30px;
