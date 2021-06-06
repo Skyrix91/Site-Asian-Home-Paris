@@ -1577,6 +1577,9 @@ offers
 
 #offers #tabs ul {
     padding: 0;
+    display: flex;
+    justify-content: center;
+
 }
 
 #offers #tabs ul li {
