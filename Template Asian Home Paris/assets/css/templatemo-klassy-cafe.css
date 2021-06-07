@@ -1050,6 +1050,7 @@ about
 
 #about .left-text-content p {
     margin-bottom: 25px;
+    text-align: center;
 }
 
 #about .right-content {
@@ -1497,6 +1498,7 @@ Contacts
 #contacts p {
     color: black;
     margin-bottom: 65px;
+    text-align: center;
 }
 
 #contacts {
