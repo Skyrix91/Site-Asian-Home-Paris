@@ -122,7 +122,7 @@ figcaption {
     background : yellow;
     z-index : -2;
     opacity: 5;
-    filter : blur (40px=);
+    filter : blur(40px=);
 
 }
 .clearfix:after {
@@ -858,6 +858,9 @@ banner
     height: 100%;
     max-height: 700px;
     background: #000;
+    margin: auto;
+    position: relative;
+
 }
 
 .Modern-Slider .item .info>div {
@@ -1103,7 +1106,7 @@ menu
 */
 
 #menu {
-    margin-top: 120px;
+    margin-top: 10px;
     background-color: #fffafa;
     padding: 120px 0px;
 }
@@ -1668,7 +1671,7 @@ offers
     right: 0;
     width: 70px;
     height: 70px;
-    background-color: #FFDE59;
+    background-color: black;
     display: inline-block;
     text-align: center;
     line-height: 70px;
